@@ -18,7 +18,9 @@ end
 
 
 class PartnerError < StandardError
-  
+  def message
+    "you"
+  end
 end
 
 beyonce = Person.new("Beyonce")
